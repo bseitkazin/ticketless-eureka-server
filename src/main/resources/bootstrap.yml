@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: eureka-server 
+  profiles:
+    active:
+      - production 
+  cloud:
+    config:
+      name: eureka-server
+      uri:
+        - localhost:8001
+      username: user
+      password: password
+      
+encrypt:
+  key: qwerty
